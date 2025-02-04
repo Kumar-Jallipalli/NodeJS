@@ -31,4 +31,4 @@ console.log(global);        // refers Global Object in Node
 console.log(this);          // refers to Empty Object
 console.log(globalThis);    // refers to Global Object in any JS Runtime Environment
 
-
+console.log(globalThis === global);     // true
